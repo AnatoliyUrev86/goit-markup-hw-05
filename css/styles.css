@@ -563,8 +563,18 @@ left: calc(50% - 208px);
 background-color: #FCFCFC;
 }
 
+
 .modal-box {
   background-color: transparent;
+}
+
+.modal-label {
+  display: inline-block;
+  margin-bottom: 4px;
+  line-height: 14px; 
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #8E8F99;
 }
 
 .modal-wrapper {
