@@ -566,6 +566,7 @@ background-color: #FCFCFC;
 
 .modal-box {
   background-color: transparent;
+  padding: 24px;
 }
 
 .modal-label {
@@ -579,8 +580,5 @@ color: #8E8F99;
 
 .modal-wrapper {
   position: relative;
-  padding: 24px;
-  align-items: center;
-  justify-content: center;
 }
 
