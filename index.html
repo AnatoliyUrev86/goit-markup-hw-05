@@ -521,22 +521,31 @@
               </svg>
             </div>
           </div>
-          <div class="modal-box" class="modal-text-box">
+          <div class="modal-box modal-text-box">
             <label for="user-coment" class="modal-label">Comment</label>
-            <textarea class="modal-text"
+            <textarea
+              class="modal-text"
               name="user-coment"
               id="user-coment"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div>
-            <input type="checkbox" id="user-privacy" name="user-privacy" class="modal-check visually-hidden">
-            <label for="user-privacy"><span class="custom-checkbox">
-              <svg width="10" height="8">
-              <use  href="./images/icons.svg#icon-check"></use>
-            </svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+          <div class="check-wraper">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              class="modal-check visually-hidden"
+            />
+            <label for="user-privacy" class="check-label"
+              ><span class="custom-checkbox">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use></svg></span
+              >I accept the terms and conditions of the
+              <a href="" class="check-link">Privacy Policy</a></label
+            >
           </div>
-          <button type="submit">Send</button>
+          <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
