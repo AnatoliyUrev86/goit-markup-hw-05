@@ -693,6 +693,18 @@ color: #8E8F99;
 }
 
 .modal-btn {
-  
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+border: none;
+margin-right: auto;
+margin-left: auto;
+display: block;
+align-items: center;
+justify-content: center;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: #4D5AE5;
+color: #FFFFFF;
 }
  
